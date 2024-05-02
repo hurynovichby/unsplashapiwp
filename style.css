@@ -1,0 +1,11 @@
+/*
+Theme Name: Unsplash Slider Block
+Description: Тема Unsplash Slider Block представляет собой WordPress-тему, специально разработанную для создания блока Gutenberg с использованием плагина Advanced Custom Fields (ACF). Блок предназначен для интеграции с популярным сервисом Unsplash.com и предоставляет возможность сделать запрос на Unsplash API с заданными параметрами. Полученные изображения отображаются на фронтенде в виде красочного слайдера, который обогатит визуальный контент вашего сайта. Unsplash Slider Block обеспечивает простоту и гибкость в настройке и использовании блока для создания привлекательного контента на вашем сайте.
+Version: 1.0
+Author: Андрей Гуринович
+Author URI: http://t.me/ahurynovich
+License: GPL v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: блоки, галерея, unsplash, slider, acf, gutenberg
+Text Domain: unsplash-slider-block
+*/
