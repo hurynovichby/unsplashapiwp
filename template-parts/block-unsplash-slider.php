@@ -25,6 +25,11 @@ $photos = $unsplash_api->get_photos($keyword, $image_count, $orientation);
         <p class="block__description"><?php echo esc_html($description); ?></p>
       </div>
 
+      <div class="block__info mb-5 card p-3">
+        <div class="block__info-item"><strong>Вы загрузили:</strong> <?php echo the_field( 'image_count' ); ?> фото</div>
+        <div class="block__info-item"><strong>Из категории:</strong> <?php echo the_field( 'search_keyword' ); ?></div>
+      </div>
+
       <div class="swiper swiper-container">
         <div class="swiper-wrapper">
           <?php foreach ($photos as $photo) : ?>
