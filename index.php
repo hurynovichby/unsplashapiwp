@@ -1,6 +1,13 @@
-<?php
-get_header();
+<?php get_header(); ?>
 
-// Ваш контент здесь
+<div id="primary" class="content-area">
+  <main id="main" class="site-main">
+    <div class="container">
 
-get_footer();
+      <?php get_template_part('template-parts/block', 'unsplash-slider'); ?>
+
+    </div>
+  </main><!-- #main -->
+</div><!-- #primary -->
+
+<?php get_footer(); ?>
