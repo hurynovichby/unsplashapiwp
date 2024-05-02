@@ -29,7 +29,7 @@ $photos = $unsplash_api->get_photos($keyword, $image_count, $orientation);
         <div class="swiper-wrapper">
           <?php foreach ($photos as $photo) : ?>
             <div class="swiper-slide">
-              <img src="<?php echo esc_url($photo->urls->regular); ?>" alt="<?php echo esc_attr($photo->alt_description); ?>">
+              <img class="rounded" src="<?php echo esc_url($photo->urls->regular); ?>" alt="<?php echo esc_attr($photo->alt_description); ?>">
             </div>
           <?php endforeach; ?>
         </div>
